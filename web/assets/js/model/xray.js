@@ -43,6 +43,8 @@ const RULE_DOMAIN = {
 const FLOW_CONTROL = {
     ORIGIN: "xtls-rprx-origin",
     DIRECT: "xtls-rprx-direct",
+    VISION: "xtls-rprx-vision",
+    VISION_UDP: "xtls-rprx-vision-udp443",
 };
 
 Object.freeze(Protocols);
